@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Programa para gestionar la información de clientes y pedidos de una compañía.
 Este programa cuenta con un menú de 7 opciones las cuales son:
 1.Registrar un cliente: Te permite crear un archivo csv con informaciones como ID, nombre, apellido, teléfono, estado del cliente
@@ -10,4 +11,7 @@ Este programa cuenta con un menú de 7 opciones las cuales son:
 8. Salir: Para la ejecución del programa.
 
 El video se encuentra publicado en el propio Git Hub
+=======
+Taller N1 N2 N3
+>>>>>>> 48e0b5f9cbd24e93537d98b821651ca43d8ce558
 
