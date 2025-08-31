@@ -12,6 +12,4 @@ Este programa cuenta con un menú de 7 opciones las cuales son:
 
 El video se encuentra publicado en el propio Git Hub
 =======
-Taller N1 N2 N3
->>>>>>> 48e0b5f9cbd24e93537d98b821651ca43d8ce558
 
