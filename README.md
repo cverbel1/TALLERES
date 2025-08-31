@@ -10,6 +10,6 @@ Este programa cuenta con un menú de 7 opciones las cuales son:
 7. Listar las ventas realizadas por cliente: Te permite ingresar al archivo csv y mostrar por consola todas las ventas que se encuentran dentro del archivo.
 8. Salir: Para la ejecución del programa.
 
-El video se encuentra publicado en el propio Git Hub
+El video se encuentra publicado en el propio Repositorio
 =======
 
