@@ -1,8 +1,5 @@
 import os
 
-# -------------------------
-# CLASE F (DEL PROFESOR)
-# -------------------------
 class F:
     def sequential_search_file(self, filename, value, param):
         index_param = -1
@@ -68,9 +65,6 @@ class F:
                 f.write(l)
 
 
-# -------------------------
-# ARCHIVOS
-# -------------------------
 f = F()
 
 carpeta = "archivos"
@@ -78,10 +72,6 @@ clientes_file = os.path.join(carpeta, "clientes.csv")
 pedidos_file = os.path.join(carpeta, "pedidos.csv")
 ventas_file = os.path.join(carpeta, "ventas.csv")
 
-
-# -------------------------
-# INICIALIZAR ARCHIVOS
-# -------------------------
 def init_files():
     if not os.path.exists(carpeta):
         os.makedirs(carpeta)
@@ -98,10 +88,6 @@ def init_files():
         with open(ventas_file, "w", encoding="utf-8") as v:
             v.write("id_venta,id_cliente,producto,cantidad,precio_unitario,subtotal\n")
 
-
-# -------------------------
-# CLIENTES
-# -------------------------
 def reg_cliente():
     nombre = input("ingrese nombre: ").strip()
     apellido = input("ingrese apellido: ").strip()
@@ -126,10 +112,6 @@ def eliminar_cliente():
     f.delete(clientes_file, idc)
     print("cliente eliminado logico")
 
-
-# -------------------------
-# PEDIDOS
-# -------------------------
 def reg_pedido():
     idc = input("id cliente: ")
     prod = input("nombre del producto: ")
@@ -163,9 +145,6 @@ def listar_pedidos_cliente():
                 print(f"{datos[0]:<10}{datos[1]:<10}{datos[2]:<15}{datos[3]:<10}{datos[4]:<10}{estado:<10}")
 
 
-# -------------------------
-# VENTAS
-# -------------------------
 def reg_venta():
     idc = input("id cliente: ")
     prod = input("nombre del producto: ")
@@ -228,10 +207,6 @@ def listar_ventas_cliente():
         print("-"*50)
         print(f"{'TOTAL':<35}{total:<10.2f}")
 
-
-# -------------------------
-# MENU
-# -------------------------
 def menu():
     init_files()
     while True:
